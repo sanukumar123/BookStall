@@ -3,10 +3,12 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import list from '../../public/list.json'
-// import Cards from '../components/Cards'
+import Cards from './Cards';
+
 
 function Freebook() {
-  const filterData = list.filter((data) => data.category === "Free");
+  const filterData = 
+  list.filter((data) => data.category === "Free");
   
   var settings = {
     dots: true,
@@ -55,14 +57,15 @@ function Freebook() {
           </p>
         </div>
 
-        <div>
-          {/* <Slider {...settings}>
-            {Freebook.map((item) => (
-              <Cards item={item} key={item.id} />
-            ))}
-          </Slider> */}
+        <div className="slider-container">
+      <Slider {...settings}>
+      {filterData.map((item) => (
+        <Cards item={item} key={item.id}/>
+      ))}
+      </Slider>
+    </div>
+
         </div>
-      </div>
     </>
   );
 }
