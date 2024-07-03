@@ -36,7 +36,7 @@
   },
 
   {
-    "id":4,
+    "id":5,
     "name":"Animal Book",
     "Title":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     "price":0,
@@ -86,6 +86,15 @@
     "Title":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     "price":0,
     "category":"Free",
+    "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1720000728~exp=1720004328~hmac=131e43b94d42f0d194549c00e6d20220929692d51b251b993f99a34207c6009d&w=740"
+  },
+
+  {
+    "id":11,
+    "name":"Computer Book",
+    "Title":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "price":100,
+    "category":"Technology",
     "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1720000728~exp=1720004328~hmac=131e43b94d42f0d194549c00e6d20220929692d51b251b993f99a34207c6009d&w=740"
   }
 ]
