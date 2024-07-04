@@ -4,20 +4,20 @@ import BannerPic from '../../public/Hero_pic.jpg'
 function Hero() {
   return (
    <>
-    <div className=" max-w-screen-2xl mx-auto md:px-20 px-4 flex flex-row med:flex-col my-10">
-        <div className="w-full order-2 md:order-1 md:w-1/2 mt-12 md:mt-32">
-        <div className='space-y-12'>
-        <h1 className="text-4xl font-bold">Hello, Welcome here to learn Something <span className="text-pink-500">new Everyday!!!</span>
+    <div className=" max-w-screen-2xl container mx-auto md:px-20 px-4 flex flex-col med:flex-col my-10">
+        <div className="w-full order-2 md:order-1 md:w-1/2 mt-12 md:mt-36">
+        <div className='space-y-8'>
+        <h1 className="text-2xl md:text-4xl font-bold font-bold">Hello, Welcome here to learn Something{" "}<span className="text-pink-500">new Everyday!!!</span>
         </h1>
-        <p className='text-xl'>
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        <p className='text-sm:md-xl'>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor,et totam. Tempora amet atque expedita, quae corrupti totam sed pariatur corporis at veniam est voluptas animi!
         </p>
         <label className="input input-bordered flex items-center gap-2">
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 16 16"
     fill="currentColor"
-    className="h-4 w-4 opacity-70">
+    className="w-4 h-4 opacity-70">
     <path
       d="M2.5 3A1.5 1.5 0 0 0 1 4.5v.793c.026.009.051.02.076.032L7.674 8.51c.206.1.446.1.652 0l6.598-3.185A.755.755 0 0 1 15 5.293V4.5A1.5 1.5 0 0 0 13.5 3h-11Z" />
     <path
@@ -26,10 +26,10 @@ function Hero() {
   <input type="text" className="grow" placeholder="Email" />
 </label>
         </div>
-        <button className="btn btn-secondary mt-6">Secondary</button>
+        <button className="btn mt-6 btn-secondary">Secondary</button>
         </div>
-        <div className="w-full order-1 md:w-1/2">
-        <img src= {BannerPic} className='h-92, w-92' alt='' />
+        <div className="order-1 w-full mt-20 md:w-1/2">
+        <img src= {BannerPic} className='md:w-[550px] md:h-[460px], md:ml-12' alt='' />
         </div>
       </div>
     </>
